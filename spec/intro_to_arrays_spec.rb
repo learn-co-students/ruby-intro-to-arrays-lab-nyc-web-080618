@@ -1,4 +1,6 @@
-require './lib/intro_to_arrays.rb'
+require_relative '../lib/intro_to_arrays.rb'
+require_relative './spec_helper.rb'
+
 describe "working with arrays" do
 
   context 'instantiating' do
